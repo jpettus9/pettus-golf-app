@@ -1,4 +1,7 @@
-
+echo "<!-- force deploy -->" >> public/index.html
+git add .
+git commit -m "Trigger deploy: modify index.html"
+git push origin main
 <!DOCTYPE html>
 <html lang="en">
 <head>
